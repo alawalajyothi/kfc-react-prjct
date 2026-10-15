@@ -1,0 +1,113 @@
+.hero img{
+    width: 200x;
+    height: 150px;
+    padding: 30px;
+}
+.hero{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   font-weight: 600;
+   border-bottom: 1px solid black;
+   margin-bottom: 50px;
+   
+}
+ul{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+
+}
+ul li{
+   margin-left: 50px;
+}
+.btn1{
+   margin-right: 50px;
+   background-color: red;
+   border: 0;
+   color: white;
+   padding: 10px , 20px;
+   cursor: pointer;
+   height: 30px;
+   font-weight: 600;
+   transition: 0.3s ease;
+
+}
+.btn1:hover{
+   background-color: transparent;
+   background-color: 1px solid red;
+   color: brown;
+}
+
+
+.btn2{
+   margin-right: 50px;
+   background-color: red;
+   border: 0;
+   color: white;
+   padding: 10px , 20px;
+   cursor: pointer;
+   height: 30px;
+   font-weight: 600;
+   transition: 0.3s ease;
+
+}
+.btn2:hover{
+   background-color: transparent;
+   background-color: 1px solid red;
+   color: brown;
+}
+
+.vilan{
+   display: flex;
+   align-items: center;
+}
+.left{
+   margin-left: 50px;
+   transform:translateX(-500px);
+   animation: left-right 1.5s ease forwards;
+}
+@keyframes left-right {
+   100%{
+      transform: translateX(0px);
+   }
+   
+}
+.title{
+   font-size:60px;
+   font-weight: 100px;
+   
+}
+
+.left p{
+   font-size: 15px;
+   font-weight: 500;
+}
+.btns{
+   margin-top: 20px;
+   display: flex;
+   gap: 5px;
+}
+.social{
+   margin-top: 20px;
+}
+.socila-icons{
+   display: flex;
+   align-items: center;
+   margin-top:5px ;
+
+}
+.social-icons img{
+   width: 50px;
+}
+.social-1{
+   font-size: 19px;
+}
+
+.right img{
+   width: 600px;
+   
+}
+
+
